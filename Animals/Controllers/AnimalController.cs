@@ -7,11 +7,11 @@ namespace Animals.Controllers
     [Route("api/[controller]")]
     [ApiController]
 
-    public class AnimalController : ControllerBase
+    public class animalsController : ControllerBase
     {
         private readonly IAnimalRepository _animalRepository;
 
-        public AnimalController(IAnimalRepository animalRepository)
+        public animalsController(IAnimalRepository animalRepository)
         {
             _animalRepository = animalRepository;
         }
